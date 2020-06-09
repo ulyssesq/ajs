@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <button className="btn btn-primary">Teste</button>
+        <h1>Cadastro de livros</h1>
       </header>
+      <main>
+        <button className="btn btn-primary">Adicionar</button>
+        <ul>
+          <li>Livro 1 - Ulysses - Editora Atica <button className="btn btn-warning">Editar</button> <button className="btn btn-danger">Remover</button></li>
+          <li>Livro 1 - Ulysses - Editora Atica <button className="btn btn-warning">Editar</button> <button className="btn btn-danger">Remover</button></li>
+          <li>Livro 1 - Ulysses - Editora Atica <button className="btn btn-warning">Editar</button> <button className="btn btn-danger">Remover</button></li>
+        </ul>
+      </main>
     </div>
   );
 }
