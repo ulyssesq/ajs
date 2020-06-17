@@ -13,8 +13,8 @@ class Book extends React.Component {
                 <td>{this.props.book.autor}</td>
                 <td>{this.props.book.editora}</td>
                 <td>{this.props.book.area}</td>
-                <td>
-                    <button className="btn btn-warning">Editar</button> 
+                <td className="text-right">
+                    <button className="btn btn-primary mr-2">Editar</button> 
                     <button className="btn btn-danger">Remover</button>
                 </td>
             </tr>
